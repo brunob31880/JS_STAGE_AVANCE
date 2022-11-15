@@ -22,6 +22,9 @@ header, nav, footer {
 footer {
     text-align: center;
 }
+#is-js-loaded {
+    color:blue;
+}
 
 /*common classes */
 .flex-cols {
@@ -32,9 +35,22 @@ footer {
 .flex-cols>* {
     text-align: center;
 }
+#thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height:80vh;
+    overflow-y: scroll;
+}
+#thumbnails > .meme-thumbnail {
+    width:32%;
+    height:200px;
+    padding: 5px;
+}
 
 #input-small-nud {
     width: 50px;
+  
 }
 
 #input-big-nud {
