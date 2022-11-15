@@ -1,0 +1,19 @@
+{
+  "name": "js_stage_avance",
+  "version": "1.0.0",
+  "description": "formation jpg",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunob31880/JS_STAGE_AVANCE.git"
+  },
+  "author": "brunob31830",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunob31880/JS_STAGE_AVANCE/issues"
+  },
+  "homepage": "https://github.com/brunob31880/JS_STAGE_AVANCE#readme"
+}
