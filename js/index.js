@@ -1,4 +1,4 @@
-function loadJS() {
+function loadJS(evt) {
   /** variable chargé
    * object {
    * color:string
@@ -14,6 +14,7 @@ function loadJS() {
   document.querySelector("header").append(is);
   */
   setNavBarEvent();
+  initRoutes(evt);
 }
 
 document.addEventListener("DOMContentLoaded", loadJS);
